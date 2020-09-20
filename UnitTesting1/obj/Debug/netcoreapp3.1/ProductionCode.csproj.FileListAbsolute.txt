@@ -1,0 +1,9 @@
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\bin\Debug\netcoreapp3.1\ProductionCode.deps.json
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\bin\Debug\netcoreapp3.1\ProductionCode.dll
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\bin\Debug\netcoreapp3.1\ProductionCode.pdb
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\obj\Debug\netcoreapp3.1\ProductionCode.csprojAssemblyReference.cache
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\obj\Debug\netcoreapp3.1\ProductionCode.AssemblyInfoInputs.cache
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\obj\Debug\netcoreapp3.1\ProductionCode.AssemblyInfo.cs
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\obj\Debug\netcoreapp3.1\ProductionCode.csproj.CoreCompileInputs.cache
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\obj\Debug\netcoreapp3.1\ProductionCode.dll
+C:\Users\kulsoom-Abbas\source\repos\UnitTesting1\UnitTesting1\obj\Debug\netcoreapp3.1\ProductionCode.pdb

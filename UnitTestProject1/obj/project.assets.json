@@ -5671,9 +5671,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\source\\repos\\UnitTesting1\\UnitTestProject1\\UnitTestProject1.csproj",
-      "projectName": "UnitTestProject1",
-      "projectPath": "C:\\Users\\kulsoom-Abbas\\source\\repos\\UnitTesting1\\UnitTestProject1\\UnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\kulsoom-Abbas\\source\\repos\\UnitTesting1\\UnitTestProject1\\MSUnitTestProject1.csproj",
+      "projectName": "MSUnitTestProject1",
+      "projectPath": "C:\\Users\\kulsoom-Abbas\\source\\repos\\UnitTesting1\\UnitTestProject1\\MSUnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\kulsoom-Abbas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kulsoom-Abbas\\source\\repos\\UnitTesting1\\UnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",

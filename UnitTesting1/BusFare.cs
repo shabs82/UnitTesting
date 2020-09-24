@@ -11,10 +11,17 @@ namespace UnitTesting1
 
         public double CalculateFare(double km, int passengers)
         {
-            if (km < 100)
+            if (km < 0 || passengers < 0)
+            {
+                throw new ArgumentOutOfRangeException($" passengersand distance cannot be less than zero");
+            }
+
+            if (km < 100 )
             {
                 return km * 3.2 + 130;
-            } 
+
+            }
+
             if (km >100 && km < 500 && passengers < 12)
             {
                 return km * 2.75 + 130;
@@ -29,7 +36,9 @@ namespace UnitTesting1
             {
                 return km * 2.25;
             }
-            throw new ArgumentException(" Incorrect Bus Fare");
+
+            return 0;
+
         }
     }
 }

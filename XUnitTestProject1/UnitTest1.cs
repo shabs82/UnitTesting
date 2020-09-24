@@ -8,9 +8,11 @@ namespace XUnitTestProject1
     {
         [Theory]
         [InlineData( 80, 5 , 386)]
-        [InlineData(101, 0, 453.2)]
+        [InlineData(300, 10, 955)]
         [InlineData( 0, 0 , 130)]
-        public void TestFirstConditionIfTrue(int km , int passengers , double expectedResult)
+        [InlineData(200, 15, 730)]
+        [InlineData(510, 0, 1147.5)]
+        public void TestAllConditions(int km , int passengers , double expectedResult)
         {
             BusFare busFare = new BusFare();
             double actualResult =busFare.CalculateFare(km , passengers);

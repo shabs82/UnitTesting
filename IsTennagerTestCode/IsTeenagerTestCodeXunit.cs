@@ -14,7 +14,7 @@ namespace IsTennagerTestCode
         public void CheckIfTeenager(DateTime birthday , bool expectedResult)
         {
             int yearDifference = DateTime.Now.Year - birthday.Year;
-            IsTeenager isTeen = new IsTeenager();
+            IsTeenager.IsTeenager isTeen = new IsTeenager.IsTeenager();
             bool actualResult = isTeen.GetAge(birthday);
             Assert.Equal(expectedResult, actualResult);
 

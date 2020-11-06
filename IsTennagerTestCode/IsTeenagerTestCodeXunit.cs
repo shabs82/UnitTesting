@@ -9,13 +9,14 @@ namespace IsTennagerTestCode
     public class IsTeenagerTestCodeXunit
     {
         [Theory]
-        [InlineData( 13 , true)]
-        [InlineData(11, false)]
-        public void CheckIfTeenager(DateTime birthday , bool expectedResult)
+        [InlineData( "Oct 10 , 2005" , true)]
+        [InlineData("Jan 5 , 2014", false)]
+        public void CheckIfTeenager(String birthday , bool expectedResult)
         {
-            int yearDifference = DateTime.Now.Year - birthday.Year;
+            var parsedDate = DateTime.Parse(birthday);
+            int yearDifference = DateTime.Now.Year - parsedDate.Year;
             IsTeenager.IsTeenager isTeen = new IsTeenager.IsTeenager();
-            bool actualResult = isTeen.GetAge(birthday);
+            bool actualResult = isTeen.GetAge(parsedDate);
             Assert.Equal(expectedResult, actualResult);
 
         }
